@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="right"
+        android:text="DOWNLOAD"
+        android:onClick="downloadBtn"/>
+
+    <LinearLayout
+        android:id="@+id/lin8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp">
+
+        <TextView
+            android:id="@+id/v_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#111bd7"
+            android:text="FROM: "
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/v_fromvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#111bd7"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/commentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:text="Comment"
+        android:layout_margin="2dp"/>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

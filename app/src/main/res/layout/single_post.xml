@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/lin8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp">
+
+        <TextView
+            android:id="@+id/v_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2980b9"
+            android:text="FROM: "/>
+        <TextView
+            android:id="@+id/v_fromvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="#2980b9"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lin9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="40dp">
+        <TextView
+            android:id="@+id/v_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2980b9"
+            android:text="POST: "/>
+        <TextView
+            android:id="@+id/v_postvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="post"
+            android:textColor="#2980b9"/>
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/grid_image"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:layout_marginTop="5dp"
+            >
+        </ImageView>
+
+
+
+    <LinearLayout
+        android:id="@+id/lin10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="start">
+        <Button
+            android:id="@+id/likeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="Like"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:id="@+id/v_likecount"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/commentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:text="Comment"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:id="@+id/v_commentCount"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/deletepost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:text="DELETE"
+            android:textColor="#fff"
+            android:layout_margin="2dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
